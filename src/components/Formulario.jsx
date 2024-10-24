@@ -47,8 +47,8 @@ function Formulario () {
         <button type='submit'>Enviar</button>
       </form>
       <div className='card'>
-          {imagen && <img src={imagen} alt={pokemon} />}
-          {pokemon && <p>{pokemon}</p>}
+          <img src={imagen} alt={pokemon} />
+          <p>{pokemon}</p>
       </div>
       <div className='error'>{error}</div>
     </>
